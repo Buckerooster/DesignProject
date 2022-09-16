@@ -109,9 +109,91 @@ h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    align-self: center;
 }
 
 .images {
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    align-content: center;
 }
+
+.hoodie,
+.sweater,
+.pants,
+.jacket {
+    height: 300px;
+    align-self: center;
+    border: 1px #3882f6;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    margin: 0%;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.quotetext,
+.rick {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quotetext {
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.rick {
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 250px;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    padding: 75px;
+}
+
+.inner {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+.justtext {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.sign-up {
+    color: #E5E7EB;
+    border: 1px #E5E7EB;
+    font-size: 20px;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
